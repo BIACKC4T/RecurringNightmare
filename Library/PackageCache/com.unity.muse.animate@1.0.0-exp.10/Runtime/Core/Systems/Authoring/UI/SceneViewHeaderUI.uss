@@ -1,0 +1,20 @@
+﻿.deeppose-scene-view-header
+{
+    flex-direction: row;
+    flex-grow: 1;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    padding-left: 3px;
+}
+
+.deeppose-sceneview-header-container
+{
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: var(--appui-backgrounds-100);
+    border-color: var(--appui-backgrounds-300);
+    border-width: 1px;
+    border-radius: 3px;
+    flex-direction: row;
+}

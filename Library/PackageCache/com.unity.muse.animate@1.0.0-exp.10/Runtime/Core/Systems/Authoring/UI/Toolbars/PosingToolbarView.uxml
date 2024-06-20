@@ -1,0 +1,8 @@
+<ui:UXML xmlns:museAnimate="Unity.Muse.Animate" xmlns:ui="UnityEngine.UIElements" xmlns:appui="Unity.Muse.AppUI.UI" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <appui:ActionGroup name="posing-toolbar-buttons" compact="true" selection-type="Single">
+        <appui:ActionButton class="deeppose-toolbar-button" name="drag" icon="recorder" tooltip="Drag effectors (Q)" quiet="true"/>
+        <appui:ActionButton class="deeppose-toolbar-button" name="translate" icon="arrows-out-cardinal" tooltip="Move selected effectors (W)" quiet="true"/>
+        <appui:ActionButton class="deeppose-toolbar-button" name="rotate" icon="arrows-clockwise" tooltip="Rotate selected effectors (E)" quiet="true"/>
+        <appui:ActionButton class="deeppose-toolbar-button" name="tolerance" icon="target" tooltip="Set the precision of a selected effector (T)" quiet="true"/>
+    </appui:ActionGroup>
+</ui:UXML>

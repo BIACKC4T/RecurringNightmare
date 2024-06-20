@@ -1,0 +1,37 @@
+<ui:UXML xmlns:museAnimate="Unity.Muse.Animate" xmlns:ui="UnityEngine.UIElements" xmlns:appui="Unity.Muse.AppUI.UI" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+
+    <ui:VisualElement class="deeppose-sceneview-header-container" picking-mode="Ignore">
+        <!-- Undo-Redo Toolbar -->
+        <museAnimate:UndoRedoToolbarView name="undo-redo-toolbar" picking-mode="Ignore"/>
+    </ui:VisualElement>
+
+    <ui:VisualElement class="deeppose-sceneview-header-container" picking-mode="Ignore">
+        <!-- Posing Toolbar -->
+        <museAnimate:PosingToolbarView name="posing-toolbar" picking-mode="Ignore"/>
+
+        <!-- Loop Key Toolbar -->
+        <museAnimate:LoopKeyToolbarView name="loop-key-toolbar" picking-mode="Ignore"/>
+
+        <!-- Selected Effectors Toolbar -->
+        <museAnimate:SelectedEffectorsToolbarView name="selected-effectors-toolbar" picking-mode="Ignore"/>
+
+        <!-- Selected Entities Toolbar -->
+        <museAnimate:SelectedEntitiesToolbarView name="selected-entities-toolbar" picking-mode="Ignore"/>
+    </ui:VisualElement>
+
+    <ui:VisualElement class="deeppose-sceneview-header-container" picking-mode="Ignore">
+        <!-- Selected Entities Toolbar -->
+        <museAnimate:AddEntitiesToolbarView name="add-entities-toolbar" picking-mode="Ignore"/>
+    </ui:VisualElement>
+
+    <ui:VisualElement class="deeppose-sceneview-header-container" picking-mode="Ignore">
+        <!-- Export -->
+        <museAnimate:TimelineAuthoringOverlayUI name="timeline-authoring-overlay" picking-mode="Ignore"/>
+    </ui:VisualElement>
+
+    <ui:VisualElement class="deeppose-sceneview-header-container" picking-mode="Ignore">
+        <!-- Tutorial -->
+        <museAnimate:TutorialToolbarView name="tutorial-toolbar" picking-mode="Ignore" />
+    </ui:VisualElement>
+
+</ui:UXML>
