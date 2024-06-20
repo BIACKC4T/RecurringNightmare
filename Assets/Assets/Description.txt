@@ -8,3 +8,9 @@
 2. Plugins
    Dotween Pro의 내용이 여기 저장되어 있습니다.
    애니메이션을 역동적으로 넣기 위해 집어넣었습니다.
+
+3. HorrorBundleSfx
+   호러 배경음 에셋입니다.
+
+4. UI SFX Free Pack
+   UI 사운드 에셋입니다.
