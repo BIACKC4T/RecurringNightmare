@@ -15,7 +15,7 @@ C:/Users/joshua firenze/Documents/GitHub/RecurringNightmare
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51733
+51261
 Successfully changed project path to: C:/Users/joshua firenze/Documents/GitHub/RecurringNightmare
 C:/Users/joshua firenze/Documents/GitHub/RecurringNightmare
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/joshua firenze/Documents/GitHub/RecurringNightmare
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6348] Host "[IP] 192.168.45.147 [Port] 0 [Flags] 2 [Guid] 2272482130 [EditorId] 2272482130 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3ONHQQT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22944] Host "[IP] 192.168.45.147 [Port] 0 [Flags] 2 [Guid] 2564882023 [EditorId] 2564882023 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3ONHQQT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [6348] Host "[IP] 192.168.45.147 [Port] 0 [Flags] 2 [Guid] 2272482130 [EditorId] 2272482130 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3ONHQQT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22944] Host "[IP] 192.168.45.147 [Port] 0 [Flags] 2 [Guid] 2564882023 [EditorId] 2564882023 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3ONHQQT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 16.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 19.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.27f1 (73effa14754f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008386 seconds.
-- Loaded All Assemblies, in  0.303 seconds
+Registered in 0.007980 seconds.
+- Loaded All Assemblies, in  0.336 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.214 seconds
-Domain Reload Profiling: 515ms
-	BeginReloadAssembly (101ms)
+- Finished resetting the current domain, in  0.265 seconds
+Domain Reload Profiling: 599ms
+	BeginReloadAssembly (118ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
+	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (114ms)
-		LoadAssemblies (99ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (116ms)
+		LoadAssemblies (116ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (112ms)
-			TypeCache.Refresh (110ms)
-				TypeCache.ScanAssembly (100ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (99ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (214ms)
+	FinalizeReload (265ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (169ms)
+		SetupLoadedEditorAssemblies (220ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (114ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,57 +115,265 @@ Domain Reload Profiling: 515ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.619 seconds
-Refreshing native plugins compatible for Editor in 6.95 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.888 seconds
+Refreshing native plugins compatible for Editor in 6.76 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.557 seconds
-Domain Reload Profiling: 1173ms
-	BeginReloadAssembly (131ms)
+- Finished resetting the current domain, in  0.586 seconds
+Domain Reload Profiling: 1470ms
+	BeginReloadAssembly (158ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (398ms)
-		LoadAssemblies (319ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (632ms)
+		LoadAssemblies (497ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (157ms)
-			TypeCache.Refresh (130ms)
-				TypeCache.ScanAssembly (117ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (557ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (164ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (587ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (430ms)
+		SetupLoadedEditorAssemblies (457ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (295ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Failed to load shader (instanceID 11992, GUID e4e5d566a8aa9914c906555a6857fcb9)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.96 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Failed to load shader (instanceID 12092, GUID e4e5d566a8aa9914c906555a6857fcb9)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 5.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4957 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 72 unused Assets / (352.0 KB). Loaded Objects now: 5436.
-Memory consumption went from 206.8 MB to 206.5 MB.
-Total: 2.456100 ms (FindLiveObjects: 0.247400 ms CreateObjectMapping: 0.145500 ms MarkObjects: 1.910100 ms  DeleteObjects: 0.152400 ms)
+Unloading 5000 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (352.7 KB). Loaded Objects now: 5479.
+Memory consumption went from 208.0 MB to 207.6 MB.
+Total: 2.673700 ms (FindLiveObjects: 0.367600 ms CreateObjectMapping: 0.176200 ms MarkObjects: 1.963800 ms  DeleteObjects: 0.165200 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 005fe022e16759a0c62cb063ae07bac5 -> c4ce36d6962429eaf75236e2372e06e3
+  custom:scripting/monoscript/fileName/Test.cs:  -> 8289d0398bd9a051035a87365428a0e7
+========================================================================
+Received Import Request.
+  Time since last request: 187623.497504 seconds.
+  path: Assets/Scripts/BIackcat's/Test.cs
+  artifactKey: Guid(4af6ccd67c96ed8498760eaaf48510f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BIackcat's/Test.cs using Guid(4af6ccd67c96ed8498760eaaf48510f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7769fb8fadaed0025e230fd8197d22b') in 0.003559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.508 seconds
+Refreshing native plugins compatible for Editor in 7.33 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.369 seconds
+Domain Reload Profiling: 1873ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (336ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1370ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (518ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (343ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Failed to load shader (instanceID 12092, GUID e4e5d566a8aa9914c906555a6857fcb9)
+Refreshing native plugins compatible for Editor in 5.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4848 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (320.1 KB). Loaded Objects now: 5495.
+Memory consumption went from 181.7 MB to 181.4 MB.
+Total: 2.552100 ms (FindLiveObjects: 0.375800 ms CreateObjectMapping: 0.168400 ms MarkObjects: 1.934900 ms  DeleteObjects: 0.072000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.504 seconds
+Refreshing native plugins compatible for Editor in 6.74 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.072 seconds
+Domain Reload Profiling: 1571ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (276ms)
+		LoadAssemblies (348ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1073ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (379ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Failed to load shader (instanceID 12092, GUID e4e5d566a8aa9914c906555a6857fcb9)
+Refreshing native plugins compatible for Editor in 5.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4848 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (319.1 KB). Loaded Objects now: 5511.
+Memory consumption went from 181.8 MB to 181.4 MB.
+Total: 2.427200 ms (FindLiveObjects: 0.252500 ms CreateObjectMapping: 0.149000 ms MarkObjects: 1.945700 ms  DeleteObjects: 0.079300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.474 seconds
+Refreshing native plugins compatible for Editor in 6.36 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.072 seconds
+Domain Reload Profiling: 1541ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (322ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1072ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (362ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Failed to load shader (instanceID 12092, GUID e4e5d566a8aa9914c906555a6857fcb9)
+Refreshing native plugins compatible for Editor in 5.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4848 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (319.2 KB). Loaded Objects now: 5527.
+Memory consumption went from 181.8 MB to 181.5 MB.
+Total: 2.381000 ms (FindLiveObjects: 0.320000 ms CreateObjectMapping: 0.150300 ms MarkObjects: 1.829600 ms  DeleteObjects: 0.080400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -181,225 +389,157 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 152408.521832 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Textures/Hospital_wall_2_AlbedoTransparency.png
-  artifactKey: Guid(db49dd44a0f752a4184a4bd33a50381e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Textures/Hospital_wall_2_AlbedoTransparency.png using Guid(db49dd44a0f752a4184a4bd33a50381e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e830f3005c449bd29106691e3d6d5e95') in 0.054190 seconds
+  Time since last request: 245.334969 seconds.
+  path: Assets/Resources/Sounds/Finish_Alarm.ogg
+  artifactKey: Guid(86619d6346cd7b742b3814c151168868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sounds/Finish_Alarm.ogg using Guid(86619d6346cd7b742b3814c151168868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb192ad2d123552dfe6e9f5bf5d033c') in 0.094634 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
-Received Import Request.
-  Time since last request: 348.631243 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Textures/props_AlbedoTransparency.png
-  artifactKey: Guid(3de1c06c23836b843a582b223c2c1f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Textures/props_AlbedoTransparency.png using Guid(3de1c06c23836b843a582b223c2c1f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7700912766f5305152e5fdd310efe44') in 0.042454 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.467 seconds
+Refreshing native plugins compatible for Editor in 6.60 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.093 seconds
+Domain Reload Profiling: 1555ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (257ms)
+		LoadAssemblies (320ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1093ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (366ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Failed to load shader (instanceID 12092, GUID e4e5d566a8aa9914c906555a6857fcb9)
+Refreshing native plugins compatible for Editor in 8.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4848 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (319.2 KB). Loaded Objects now: 5553.
+Memory consumption went from 186.0 MB to 185.7 MB.
+Total: 2.563000 ms (FindLiveObjects: 0.362700 ms CreateObjectMapping: 0.262800 ms MarkObjects: 1.853900 ms  DeleteObjects: 0.082800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 116.652396 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Materials/flight_of_stairs_Celling.mat
-  artifactKey: Guid(e8a19baf1033f3746beb3187b4c1fb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Materials/flight_of_stairs_Celling.mat using Guid(e8a19baf1033f3746beb3187b4c1fb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdaa2ae6ff09292e63a2f88b48a1775') in 0.281140 seconds
+  Time since last request: 1647.389744 seconds.
+  path: Assets/HorrorBundleSfx
+  artifactKey: Guid(ff9bf0e916f88c140bc226fecdaa46d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorrorBundleSfx using Guid(ff9bf0e916f88c140bc226fecdaa46d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ea0ed51cd8486b56c544e70cc4a7f0') in 0.007700 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Materials/flight_of_stairs_wall.mat
-  artifactKey: Guid(a8102ac2f62ff2f4a8284bff397a16d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Materials/flight_of_stairs_wall.mat using Guid(a8102ac2f62ff2f4a8284bff397a16d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de392d4e26593b426e6a0ed243ca9b64') in 0.067944 seconds
+  Time since last request: 5.812940 seconds.
+  path: Assets/UI SFX Free Pack
+  artifactKey: Guid(9127fd0bca692fe46b8cdd2485526d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI SFX Free Pack using Guid(9127fd0bca692fe46b8cdd2485526d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f093dcafe66d101f7dece7112ed7a7e') in 0.000610 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Materials/Hospital_prop.mat
-  artifactKey: Guid(ed0cc3d33bf82e74f98ba218cfc47cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Materials/Hospital_prop.mat using Guid(ed0cc3d33bf82e74f98ba218cfc47cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab16123d94bde0f22c0f8bf5bcd9af48') in 0.025806 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Materials/Hospital_celling_floor.mat
-  artifactKey: Guid(177430bad588ee34d99bbb49eb99c1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Materials/Hospital_celling_floor.mat using Guid(177430bad588ee34d99bbb49eb99c1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db1eac8fc472f5960605d51fec7e888') in 0.018285 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Materials/mattress.mat
-  artifactKey: Guid(507b642063f1b4e4d97bedb9f1efa5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Materials/mattress.mat using Guid(507b642063f1b4e4d97bedb9f1efa5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12cde72af424aa442057f292b975ab4') in 0.024090 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Materials/Hospital_wall_door.mat
-  artifactKey: Guid(639ca6bd245ef1f42b24fd2cf4b9f50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Materials/Hospital_wall_door.mat using Guid(639ca6bd245ef1f42b24fd2cf4b9f50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5958ecdc642827ab3630652930d649') in 0.024938 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Materials/Hospital_ark_pils.mat
-  artifactKey: Guid(08417efef208e544e9e60726e3d1f65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Materials/Hospital_ark_pils.mat using Guid(08417efef208e544e9e60726e3d1f65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c602f944a1ec1ca436b8ef472a455c') in 0.025397 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Materials/Hospital_wall_2.mat
-  artifactKey: Guid(d8d1bc7c614af7b4486ec85ba7068770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Materials/Hospital_wall_2.mat using Guid(d8d1bc7c614af7b4486ec85ba7068770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98314f41778fbf69932e3970a548b605') in 0.021295 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Materials/Furniture_2.mat
-  artifactKey: Guid(e2d0bf0f726a99c4e9aa296357690dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Materials/Furniture_2.mat using Guid(e2d0bf0f726a99c4e9aa296357690dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb9f95afb90e9bcd566face6f44a191') in 0.021256 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 410.566698 seconds.
-  path: Assets/Assets/Hospital_level_pack/Morgue/Models/Morgue_wall.fbx
-  artifactKey: Guid(14112033ee4c26b46b438c03c50f0f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Morgue/Models/Morgue_wall.fbx using Guid(14112033ee4c26b46b438c03c50f0f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd0bf7d5cd60823ce56f778cdba3a71') in 0.281046 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/Hospital_level_pack/Morgue/Models/Surgical_table.fbx
-  artifactKey: Guid(aac3d913e8f5cac40b5f1c303bc6e217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Morgue/Models/Surgical_table.fbx using Guid(aac3d913e8f5cac40b5f1c303bc6e217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d2db1787230e238b0c30a0773c5a16') in 0.052087 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Assets/Hospital_level_pack/Morgue/Models/Pillars.fbx
-  artifactKey: Guid(f5c6591f5eea0694587db869f599195a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Morgue/Models/Pillars.fbx using Guid(f5c6591f5eea0694587db869f599195a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c180a85dc838625d3eecb404ef49d2') in 0.067361 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 6.837139 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Models/Furniture_1.fbx
-  artifactKey: Guid(59cce36b4f1f0054498ce3e784a221bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Models/Furniture_1.fbx using Guid(59cce36b4f1f0054498ce3e784a221bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f5c1130a48c5c41b59b8f5c1c8b53d') in 0.176874 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 31
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Models/Furniture_3.fbx
-  artifactKey: Guid(a20f8c4119d71514b9c48af02fe0cafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Models/Furniture_3.fbx using Guid(a20f8c4119d71514b9c48af02fe0cafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9a3171764fa29b57a1b0a2a6a51085') in 0.059412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 41
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Models/Hospital_celling_floor.fbx
-  artifactKey: Guid(fc90ec2837aee404db2ef29375d09bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Models/Hospital_celling_floor.fbx using Guid(fc90ec2837aee404db2ef29375d09bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac43c0d2d7d35bba339191ab8454945') in 0.027175 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Models/Hospital_floor_prop.fbx
-  artifactKey: Guid(269062e5a0b843845a9ae3640db2f907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Models/Hospital_floor_prop.fbx using Guid(269062e5a0b843845a9ae3640db2f907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc744f09dd4b812c7120df503d0a6f8') in 0.051308 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 2.856142 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Prefab/Bed.prefab
-  artifactKey: Guid(7fa2e1e02dd428149866578d5b92e000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Prefab/Bed.prefab using Guid(7fa2e1e02dd428149866578d5b92e000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7652cbb16b01da77567331d32460be99') in 0.022770 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Prefab/Chair_2.prefab
-  artifactKey: Guid(4965915d81be6ca44b2ac506dc06fc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Prefab/Chair_2.prefab using Guid(4965915d81be6ca44b2ac506dc06fc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d2314fbe5eac031ecacced71cccd17') in 0.038393 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Prefab/Hospital_wall_2.prefab
-  artifactKey: Guid(4d817b5a4b579034f8b56a51e1efd693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Prefab/Hospital_wall_2.prefab using Guid(4d817b5a4b579034f8b56a51e1efd693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4107dfa5a58fbd8f8ad50df7c4a1e2') in 0.040903 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Prefab/Hospital_pils.prefab
-  artifactKey: Guid(67b1ce6014c675443b221d58c214f22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Prefab/Hospital_pils.prefab using Guid(67b1ce6014c675443b221d58c214f22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5047ba318785da53ae52dd28862fabcc') in 0.023066 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Prefab/mattress.prefab
-  artifactKey: Guid(563240cb155ac414fb27fad7ff3ea080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Prefab/mattress.prefab using Guid(563240cb155ac414fb27fad7ff3ea080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f999bbeeb0898d8f3186e89f3a8a1b9c') in 0.027373 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Prefab/commode_2.prefab
-  artifactKey: Guid(7c35f9102f3fd2846aa75254c231a40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Prefab/commode_2.prefab using Guid(7c35f9102f3fd2846aa75254c231a40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebb07a2588a820c4316314133bc6123') in 0.023625 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Prefab/door.prefab
-  artifactKey: Guid(f0361437737ec0c41aec89b2f35adb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Prefab/door.prefab using Guid(f0361437737ec0c41aec89b2f35adb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9750d1191f1708ca979266942d61db') in 0.024212 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 19.676012 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Prefab/stand.prefab
-  artifactKey: Guid(0a7c82617cb04284aa4cddb400452565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Prefab/stand.prefab using Guid(0a7c82617cb04284aa4cddb400452565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd4275dee77494f8f81c09ee61e7214') in 0.032989 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.483092 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Prefab/Wardrobe.prefab
-  artifactKey: Guid(2481398b4c080124eb2fa96b823c6e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Prefab/Wardrobe.prefab using Guid(2481398b4c080124eb2fa96b823c6e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f86e4c59c88a2234ded5f55a04d972b') in 0.025562 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Assets/Hospital_level_pack/Hospital_floor/Prefab/wooden_partition_2.prefab
-  artifactKey: Guid(8531af7061cafd146bca1b398faa9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Hospital_level_pack/Hospital_floor/Prefab/wooden_partition_2.prefab using Guid(8531af7061cafd146bca1b398faa9abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3256a5cd6795d6db8ceccbf714ed20') in 0.017990 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.459 seconds
+Refreshing native plugins compatible for Editor in 7.35 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.078 seconds
+Domain Reload Profiling: 1534ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (253ms)
+		LoadAssemblies (312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1078ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (364ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Failed to load shader (instanceID 12092, GUID e4e5d566a8aa9914c906555a6857fcb9)
+Refreshing native plugins compatible for Editor in 6.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4848 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (319.2 KB). Loaded Objects now: 5569.
+Memory consumption went from 186.0 MB to 185.7 MB.
+Total: 2.459200 ms (FindLiveObjects: 0.263400 ms CreateObjectMapping: 0.146900 ms MarkObjects: 1.966200 ms  DeleteObjects: 0.081800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

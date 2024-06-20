@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638542869453639950
-    m_Hash: 725140080
+      ticks: 638544509117203163
+    m_Hash: 4060096022
   m_LockFileStatus:
     m_FilePath: C:/Users/joshua firenze/Documents/GitHub/RecurringNightmare/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638542869453685940
-    m_Hash: 290425628
+      ticks: 638544509117258339
+    m_Hash: 765925392
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,77 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/joshua firenze/Documents/GitHub/RecurringNightmare/Packages
 m_EditorVersion: 2022.3.27f1 (73effa14754f)
 m_ResolvedPackages:
+- packageId: com.unity.ai.navigation@1.1.5
+  testable: 0
+  isDirectDependency: 1
+  version: 1.1.5
+  source: 1
+  resolvedPath: C:\Users\joshua firenze\Documents\GitHub\RecurringNightmare\Library\PackageCache\com.unity.ai.navigation@1.1.5
+  assetPath: Packages/com.unity.ai.navigation
+  name: com.unity.ai.navigation
+  displayName: AI Navigation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: High-level NavMesh components for building and using NavMeshes at
+    runtime and at edit time.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-exp.1
+    - 1.0.0-exp.2
+    - 1.0.0-exp.3
+    - 1.0.0-exp.4
+    - 1.1.0-pre.1
+    - 1.1.0-pre.2
+    - 1.1.1
+    - 1.1.3
+    - 1.1.4
+    - 1.1.5
+    - 2.0.0-pre.3
+    - 2.0.0-pre.4
+    - 2.0.0
+    compatible:
+    - 1.1.5
+    recommended: 1.1.5
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638319373850000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@1.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
+    revision: a905e1ab41c8afae1a75688ceb3b4dfa1686ea75
+    path: 
+  unityLifecycle:
+    version: 1.1.5
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.cinemachine@2.10.0
   testable: 0
   isDirectDependency: 1
@@ -593,6 +664,348 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+- packageId: com.unity.muse.animate@1.0.0-exp.10
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0-exp.10
+  source: 1
+  resolvedPath: C:\Users\joshua firenze\Documents\GitHub\RecurringNightmare\Library\PackageCache\com.unity.muse.animate@1.0.0-exp.10
+  assetPath: Packages/com.unity.muse.animate
+  name: com.unity.muse.animate
+  displayName: Muse Animate Tool
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Muse Animate is a Unity package that provides a set of tools to help
+    create AI-generated character animations from text input.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-exp.8
+    - 1.0.0-exp.9
+    - 1.0.0-exp.10
+    compatible:
+    - 1.0.0-exp.8
+    - 1.0.0-exp.9
+    - 1.0.0-exp.10
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.muse.common
+    version: 1.0.0-pre.21
+  - name: com.unity.nuget.newtonsoft-json
+    version: 2.0.1-preview.1
+  - name: com.unity.sentis
+    version: 1.4.0-pre.3
+  - name: com.unity.textmeshpro
+    version: 3.0.6
+  - name: com.unity.shadergraph
+    version: 11.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.muse.common
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequesttexture
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.unity.sentis
+    version: 1.4.0-pre.3
+  - name: com.unity.burst
+    version: 1.8.13
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.collections
+    version: 2.1.4
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.textmeshpro
+    version: 3.0.9
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.shadergraph
+    version: 14.0.11
+  - name: com.unity.render-pipelines.core
+    version: 14.0.11
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.searcher
+    version: 4.9.2
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638491502100000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.muse.animate@1.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/UnityMuseAITools.git
+    revision: 448d743c5179faf5626ebd33bb1932b5099cd3f5
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.muse.chat@1.0.0-pre.10
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0-pre.10
+  source: 1
+  resolvedPath: C:\Users\joshua firenze\Documents\GitHub\RecurringNightmare\Library\PackageCache\com.unity.muse.chat@1.0.0-pre.10
+  assetPath: Packages/com.unity.muse.chat
+  name: com.unity.muse.chat
+  displayName: Muse Chat
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: "Muse Chat significantly boosts Unity game developer\u2019s productivity
+    by enabling them to quickly retrieve information and generate solutions that
+    are tailored to their specific projects. Now available in the Unity Editor, chat
+    users can more easily and conveniently troubleshoot while in their project, and
+    apply solutions to their build. Especially for developers in the prototyping
+    phase, Muse Chat helps you quickly explore new ideas and develop concepts and
+    overcome hurdles with much greater ease."
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.3
+    - 1.0.0-pre.5
+    - 1.0.0-pre.6
+    - 1.0.0-pre.7
+    - 1.0.0-pre.10
+    compatible:
+    - 1.0.0-pre.3
+    - 1.0.0-pre.5
+    - 1.0.0-pre.6
+    - 1.0.0-pre.7
+    - 1.0.0-pre.10
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.serialization
+    version: 3.1.1
+  - name: com.unity.muse.common
+    version: 1.0.0
+  - name: com.unity.sentis
+    version: 1.4.0-pre.3
+  resolvedDependencies:
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.serialization
+    version: 3.1.1
+  - name: com.unity.collections
+    version: 2.1.4
+  - name: com.unity.burst
+    version: 1.8.13
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.muse.common
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequesttexture
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.sentis
+    version: 1.4.0-pre.3
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638538330280000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.muse.chat@1.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/muse-editor.git
+    revision: a6f057249018a0f09f05fda225943cf35ead60fc
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.muse.texture@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 1
+  resolvedPath: C:\Users\joshua firenze\Documents\GitHub\RecurringNightmare\Library\PackageCache\com.unity.muse.texture@1.0.0
+  assetPath: Packages/com.unity.muse.texture
+  name: com.unity.muse.texture
+  displayName: Muse Texture Tool
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Muse Texture Tool is a package that provides a set of tools to help
+    create AI-generated texture content from text input in Unity.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.2
+    - 0.2.0
+    - 0.3.0
+    - 0.3.1
+    - 0.4.1
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0-pre.18
+    - 1.0.0-pre.19
+    - 1.0.0-pre.21
+    - 1.0.0
+    compatible:
+    - 0.1.2
+    - 0.2.0
+    - 0.3.0
+    - 0.3.1
+    - 0.4.1
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0-pre.18
+    - 1.0.0-pre.19
+    - 1.0.0-pre.21
+    - 1.0.0
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.muse.common
+    version: 1.0.0
+  - name: com.unity.shadergraph
+    version: 14.0.7
+  resolvedDependencies:
+  - name: com.unity.muse.common
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequesttexture
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.shadergraph
+    version: 14.0.11
+  - name: com.unity.render-pipelines.core
+    version: 14.0.11
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.searcher
+    version: 4.9.2
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638490294040000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.muse.texture@1.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/UnityMuseAITools.git
+    revision: 0883775ed83d19cdd1d898b5ba7eaf6bbeda5746
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.render-pipelines.universal@14.0.11
   testable: 0
   isDirectDependency: 1
@@ -872,12 +1285,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.textmeshpro@3.0.6
+- packageId: com.unity.textmeshpro@3.0.9
   testable: 0
   isDirectDependency: 1
-  version: 3.0.6
+  version: 3.0.9
   source: 1
-  resolvedPath: C:\Users\joshua firenze\Documents\GitHub\RecurringNightmare\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: C:\Users\joshua firenze\Documents\GitHub\RecurringNightmare\Library\PackageCache\com.unity.textmeshpro@3.0.9
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -886,7 +1299,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-  type: asset
+  type: assets
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -1051,13 +1464,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637547111200000000
-  documentationUrl: 
+  datePublishedTicks: 638515173480000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-    revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
+    revision: 0af193626b4f76795f7cb6c9b0f55389d0e4b1d6
     path: 
   unityLifecycle:
     version: 3.0.6
@@ -4073,6 +4486,473 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+- packageId: com.unity.muse.common@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 1
+  resolvedPath: C:\Users\joshua firenze\Documents\GitHub\RecurringNightmare\Library\PackageCache\com.unity.muse.common@1.0.0
+  assetPath: Packages/com.unity.muse.common
+  name: com.unity.muse.common
+  displayName: Muse Common Library
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Muse Common Library is a package that provides common tools for other
+    Muse AI packages.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.2
+    - 0.2.0
+    - 0.3.0
+    - 0.4.1
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0-pre.18
+    - 1.0.0-pre.19
+    - 1.0.0-pre.20
+    - 1.0.0-pre.21
+    - 1.0.0
+    compatible:
+    - 0.1.2
+    - 0.2.0
+    - 0.3.0
+    - 0.4.1
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0-pre.18
+    - 1.0.0-pre.19
+    - 1.0.0-pre.20
+    - 1.0.0-pre.21
+    - 1.0.0
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequesttexture
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequesttexture
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638490293880000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.muse.common@1.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/UnityMuseAITools.git
+    revision: 0883775ed83d19cdd1d898b5ba7eaf6bbeda5746
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.nuget.newtonsoft-json@3.2.1
+  testable: 0
+  isDirectDependency: 0
+  version: 3.2.1
+  source: 1
+  resolvedPath: C:\Users\joshua firenze\Documents\GitHub\RecurringNightmare\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1
+  assetPath: Packages/com.unity.nuget.newtonsoft-json
+  name: com.unity.nuget.newtonsoft-json
+  displayName: Newtonsoft Json
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: library
+  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
+    synced to version 13.0.2.
+
+
+    This package is used for advanced json serialization
+    and deserialization. Most Unity users will be better suited using the existing
+    json tools built into Unity.
+
+    To avoid assembly clashes, please use this
+    package if you intend to use Newtonsoft Json.'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.1-preview.1
+    - 1.1.2
+    - 2.0.0-preview
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.2
+    - 3.0.1
+    - 3.0.2
+    - 3.1.0
+    - 3.2.0
+    - 3.2.1
+    compatible:
+    - 3.2.1
+    recommended: 3.2.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638186318800000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+    revision: d8e49aef8979bef617144382052ec2f479645eaf
+    path: 
+  unityLifecycle:
+    version: 3.2.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.serialization@3.1.1
+  testable: 0
+  isDirectDependency: 0
+  version: 3.1.1
+  source: 1
+  resolvedPath: C:\Users\joshua firenze\Documents\GitHub\RecurringNightmare\Library\PackageCache\com.unity.serialization@3.1.1
+  assetPath: Packages/com.unity.serialization
+  name: com.unity.serialization
+  displayName: Serialization
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: Use Unity's Serialization to serialize and deserialize from/to JSON
+    and Binary formats.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.2.1-preview
+    - 0.3.0-preview
+    - 0.3.1-preview
+    - 0.4.0-preview
+    - 0.4.1-preview
+    - 0.5.0-preview
+    - 0.5.1-preview
+    - 0.6.0-preview
+    - 0.6.1-preview
+    - 0.6.2-preview
+    - 0.6.3-preview
+    - 0.6.4-preview
+    - 1.0.0-preview.5
+    - 1.1.0-preview
+    - 1.1.1-preview
+    - 1.2.0-preview
+    - 1.3.0-preview
+    - 1.3.1-preview
+    - 1.4.3-preview
+    - 1.5.0-preview
+    - 1.6.0-preview
+    - 1.6.1-preview
+    - 1.6.2-preview
+    - 1.7.0-preview.1
+    - 1.7.1-preview
+    - 1.7.3-preview
+    - 1.7.4-preview
+    - 1.7.5-preview
+    - 1.8.2-preview
+    - 1.8.3-preview
+    - 2.0.0-exp.11
+    - 2.0.0-exp.13
+    - 2.1.0-exp.1
+    - 2.1.1-exp.1
+    - 2.1.2-exp.1
+    - 3.0.0-pre.1
+    - 3.0.0-pre.2
+    - 3.0.0-pre.3
+    - 3.1.1
+    compatible:
+    - 2.0.0-exp.11
+    - 2.0.0-exp.13
+    - 2.1.0-exp.1
+    - 2.1.1-exp.1
+    - 2.1.2-exp.1
+    - 3.0.0-pre.1
+    - 3.0.0-pre.2
+    - 3.0.0-pre.3
+    - 3.1.1
+    recommended: 3.1.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.collections
+    version: 2.1.4
+  - name: com.unity.burst
+    version: 1.7.2
+  resolvedDependencies:
+  - name: com.unity.collections
+    version: 2.1.4
+  - name: com.unity.burst
+    version: 1.8.13
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  keywords:
+  - serialization
+  - json
+  - binary
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638194181240000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.serialization@3.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.properties.git
+    revision: 090f848dff6515cf21787143f17c107644263fe9
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 3.1.1
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.sentis@1.4.0-pre.3
+  testable: 0
+  isDirectDependency: 0
+  version: 1.4.0-pre.3
+  source: 1
+  resolvedPath: C:\Users\joshua firenze\Documents\GitHub\RecurringNightmare\Library\PackageCache\com.unity.sentis@1.4.0-pre.3
+  assetPath: Packages/com.unity.sentis
+  name: com.unity.sentis
+  displayName: Sentis
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: 'Sentis is a neural network inference library. It enables you to import
+    trained neural network models, connect the network inputs and outputs to your
+    game code, and then run them locally in your end-user app. Use cases include
+    capabilities like natural language processing, object recognition, automated
+    game opponents, sensor data classification, and many more.
+
+
+    Sentis automatically
+    optimizes your network for real-time use to speed up inference. It also allows
+    you to tune your implementation further with tools like frame slicing, quantization,
+    and custom backend (i.e. compute type) dispatching.
+
+
+    Visit https://unity.com/sentis
+    for more resources.'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-exp.6
+    - 1.1.0-exp.2
+    - 1.1.1-exp.2
+    - 1.2.0-exp.2
+    - 1.3.0-pre.1
+    - 1.3.0-pre.2
+    - 1.3.0-pre.3
+    - 1.4.0-pre.1
+    - 1.4.0-pre.2
+    - 1.4.0-pre.3
+    - 1.5.0-pre.2
+    - 1.5.0-pre.3
+    compatible:
+    - 1.0.0-exp.6
+    - 1.1.0-exp.2
+    - 1.1.1-exp.2
+    - 1.2.0-exp.2
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.burst
+    version: 1.8.12
+  - name: com.unity.collections
+    version: 1.2.4
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 1.8.13
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.1.4
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638482934310000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.sentis@1.4/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/UnityInferenceEngine.git
+    revision: b3ce2a97bf5b494c26e93c162cfb10b5ee982f75
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.editorcoroutines@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 1
+  resolvedPath: C:\Users\joshua firenze\Documents\GitHub\RecurringNightmare\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+  assetPath: Packages/com.unity.editorcoroutines
+  name: com.unity.editorcoroutines
+  displayName: Editor Coroutines
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: 'The editor coroutines package allows developers to start constructs
+    similar to Unity''s monobehaviour based coroutines within the editor using abitrary
+    objects. '
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.1-preview.3
+    - 0.0.1-preview.4
+    - 0.0.1-preview.5
+    - 0.0.2-preview.1
+    - 0.1.0-preview.1
+    - 0.1.0-preview.2
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - coroutine
+  - coroutines
+  - editor
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637232611380000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git
+    revision: f67fc9992bbc7a553b17375de53a8b2db136528e
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.searcher@4.9.2
   testable: 0
   isDirectDependency: 0
@@ -4139,6 +5019,237 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 4.9.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.collections@2.1.4
+  testable: 0
+  isDirectDependency: 0
+  version: 2.1.4
+  source: 1
+  resolvedPath: C:\Users\joshua firenze\Documents\GitHub\RecurringNightmare\Library\PackageCache\com.unity.collections@2.1.4
+  assetPath: Packages/com.unity.collections
+  name: com.unity.collections
+  displayName: Collections
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: A C# collections library providing data structures that can be used
+    in jobs, and optimized by Burst compiler.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.9-preview.1
+    - 0.0.9-preview.2
+    - 0.0.9-preview.3
+    - 0.0.9-preview.4
+    - 0.0.9-preview.5
+    - 0.0.9-preview.6
+    - 0.0.9-preview.7
+    - 0.0.9-preview.8
+    - 0.0.9-preview.9
+    - 0.0.9-preview.10
+    - 0.0.9-preview.11
+    - 0.0.9-preview.12
+    - 0.0.9-preview.13
+    - 0.0.9-preview.14
+    - 0.0.9-preview.15
+    - 0.0.9-preview.16
+    - 0.0.9-preview.17
+    - 0.0.9-preview.18
+    - 0.0.9-preview.19
+    - 0.0.9-preview.20
+    - 0.1.0-preview
+    - 0.1.1-preview
+    - 0.2.0-preview.13
+    - 0.3.0-preview.0
+    - 0.4.0-preview.6
+    - 0.5.0-preview.9
+    - 0.5.1-preview.11
+    - 0.5.2-preview.8
+    - 0.6.0-preview.9
+    - 0.7.0-preview.2
+    - 0.7.1-preview.3
+    - 0.8.0-preview.5
+    - 0.9.0-preview.5
+    - 0.9.0-preview.6
+    - 0.11.0-preview.17
+    - 0.12.0-preview.13
+    - 0.14.0-preview.16
+    - 0.15.0-preview.21
+    - 0.17.0-preview.18
+    - 1.0.0-pre.3
+    - 1.0.0-pre.5
+    - 1.0.0-pre.6
+    - 1.1.0
+    - 1.2.3-pre.1
+    - 1.2.3
+    - 1.2.4
+    - 1.3.1
+    - 1.4.0
+    - 1.5.1
+    - 2.1.0-exp.4
+    - 2.1.0-pre.2
+    - 2.1.0-pre.6
+    - 2.1.0-pre.11
+    - 2.1.0-pre.18
+    - 2.1.1
+    - 2.1.4
+    - 2.2.0
+    - 2.2.1
+    - 2.3.0-exp.1
+    - 2.3.0-pre.3
+    - 2.4.0-exp.2
+    - 2.4.0-pre.2
+    - 2.4.0-pre.5
+    - 2.4.0
+    - 2.4.1
+    - 2.4.2
+    - 2.5.0-exp.1
+    compatible:
+    - 1.2.4
+    - 1.3.1
+    - 1.4.0
+    - 1.5.1
+    - 2.1.0-exp.4
+    - 2.1.0-pre.2
+    - 2.1.0-pre.6
+    - 2.1.0-pre.11
+    - 2.1.0-pre.18
+    - 2.1.1
+    - 2.1.4
+    - 2.2.0
+    - 2.2.1
+    - 2.3.0-exp.1
+    - 2.3.0-pre.3
+    - 2.4.0-exp.2
+    - 2.4.0-pre.2
+    - 2.4.0-pre.5
+    - 2.4.0
+    - 2.4.1
+    - 2.4.2
+    - 2.5.0-exp.1
+    recommended: 2.4.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.burst
+    version: 1.8.4
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 1.8.13
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  keywords:
+  - dots
+  - collections
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638194181200000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collections@2.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/dots.git
+    revision: 70c2a66d8670be047d7b9c6d7057a8b71b7303fb
+    path: 
+  unityLifecycle:
+    version: 1.2.4
+    nextVersion: 
+    recommendedVersion: 2.4.0
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.nuget.mono-cecil@1.11.4
+  testable: 0
+  isDirectDependency: 0
+  version: 1.11.4
+  source: 1
+  resolvedPath: C:\Users\joshua firenze\Documents\GitHub\RecurringNightmare\Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4
+  assetPath: Packages/com.unity.nuget.mono-cecil
+  name: com.unity.nuget.mono-cecil
+  displayName: Mono Cecil
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: library
+  description: 'The mono cecil library from https://www.nuget.org/packages/Mono.Cecil/
+
+
+    This
+    package is intended for internal Unity use only. Most Unity users will be better
+    suite using the existing community tooling.
+
+    To avoid assembly clashes, please
+    use this package if you intend to use Mono.Cecil.'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.6-preview.2
+    - 1.0.0-preview.1
+    - 1.10.0-preview.1
+    - 1.10.1-preview.1
+    - 1.10.1
+    - 1.10.2
+    - 1.11.4
+    compatible:
+    - 1.11.4
+    recommended: 1.11.4
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637852971930000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.mono-cecil.git
+    revision: d0133ce672d724694b56bfd20672acf6f8737fec
+    path: 
+  unityLifecycle:
+    version: 1.11.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
