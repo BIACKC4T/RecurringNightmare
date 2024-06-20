@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xmlns:appui="Unity.Muse.AppUI.UI"
+    xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+>
+    <appui:Panel class="muse-root" scale="small">
+
+        <!-- ScopeToolbar -->
+        <ui:VisualElement class="muse-scopetoolbar">
+            <ui:Image class="muse-scopetoolbar__icon" />
+            <ui:VisualElement class="muse-scopetoolbar__scopes">
+                <appui:Link class="muse-scopetoolbar__link is-selected" text="Soil Textures" />
+                <appui:Link class="muse-scopetoolbar__link" text="Brick Walls 2" />
+                <appui:Link class="muse-scopetoolbar__link" text="Decals and Graffitis" />
+            </ui:VisualElement>
+
+            <ui:VisualElement class="muse-spacer" />
+
+            <appui:Text text="NeuralGen" class="muse-scopetoolbar__title" />
+
+        </ui:VisualElement>
+
+        <ui:VisualElement class="muse-controltoolbar">
+
+            <ui:VisualElement class="muse-controltoolbar__leftarea">
+
+                <appui:IconButton class="muse-controltoolbar__button" icon="arrow-u-up-left" quiet="true" size="M" primary="true" />
+                <appui:IconButton class="muse-controltoolbar__button" icon="arrow-u-up-right" quiet="true" size="M" primary="true" />
+
+            </ui:VisualElement>
+
+            <ui:VisualElement class="muse-spacer" />
+
+            <ui:VisualElement class="muse-controltoolbar__rightarea">
+
+                <appui:Dropdown class="muse-controltoolbar__dropdown">
+
+                </appui:Dropdown>
+
+            </ui:VisualElement>
+
+            <ui:VisualElement class="muse-controltoolbar__centerarea">
+
+                <appui:ActionButton class="muse-controltoolbar__actionbutton" selected="true" quiet="true" label="Bounding Box" icon="focus" />
+                <appui:ActionButton class="muse-controltoolbar__actionbutton" quiet="true" label="Path Tool" icon="spline-tool" />
+                <appui:ActionButton class="muse-controltoolbar__actionbutton" quiet="true" label="Pencil" icon="pen" />
+                <appui:ActionButton class="muse-controltoolbar__actionbutton" quiet="true" label="Paint" icon="paint-brush" />
+                <appui:ActionButton class="muse-controltoolbar__actionbutton" quiet="true" label="Color Picker" icon="color-picker" />
+
+            </ui:VisualElement>
+
+        </ui:VisualElement>
+
+        <ui:VisualElement class="muse-canvas-container" >
+
+            <ui:VisualElement class="muse-canvas" >
+                <ui:Image class="muse-current-image" />
+            </ui:VisualElement>
+
+            <ui:VisualElement class="muse-overlay" >
+                <ui:ScrollView class="muse-nodeslist">
+
+                    <ui:VisualElement class="muse-nodeslist__content">
+
+                        <ui:VisualElement name="generate-node" class="muse-node">
+                            <appui:Text text="Generation" class="muse-node__title bottom-gap" />
+                            <appui:Dropdown name="generation-type-dropdown" class="bottom-gap" />
+                            <appui:TouchSliderInt name="image-count-slider" class="bottom-gap" label="Images" low-value="1" high-value="10" value="4"  />
+                            <ui:VisualElement class="row">
+<!--                                <appui:Button name="add-node-button" class="muse-node__button" primary="false" title="Add Node" />-->
+                                <appui:Button name="generate-button" class="muse-node__button muse-theme" variant="Accent" title="Generate" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+
+
+                        <!-- Prompt Node -->
+                        <ui:VisualElement name="prompt-node" class="muse-node">
+                            <appui:Text text="Prompt" class="muse-node__title bottom-gap" />
+
+                            <!-- Prompt Row -->
+                            <ui:VisualElement class="muse-prompt-row bottom-gap">
+                                <ui:VisualElement class="muse-prompt-row__slider-container">
+                                    <appui:TouchSliderInt name="muse-prompt__slider" label="Sword" low-value="1" high-value="100" value="50"  />
+                                </ui:VisualElement>
+                                <appui:IconButton name="muse-prompt__button" icon="x" />
+                            </ui:VisualElement>
+
+                            <!-- Prompt Row -->
+                            <ui:VisualElement class="muse-prompt-row bottom-gap">
+                                <ui:VisualElement class="muse-prompt-row__slider-container">
+                                    <appui:TouchSliderInt name="muse-prompt__slider" label="Toto" low-value="1" high-value="100" value="50"  />
+                                </ui:VisualElement>
+                                <appui:IconButton name="muse-prompt__button" icon="x" />
+                            </ui:VisualElement>
+
+                            <appui:TextField name="prompt-inputfield" placeholder="Red bricks" />
+
+                        </ui:VisualElement>
+
+                        <!-- Negative Prompt Node -->
+                        <ui:VisualElement name="prompt-node" class="muse-node">
+                            <appui:Text text="Negative Prompt" class="muse-node__title bottom-gap" />
+                            <appui:TextField name="neg-prompt-inputfield" />
+                        </ui:VisualElement>
+
+                        <!-- Reference Image Node -->
+                        <ui:VisualElement name="prompt-node" class="muse-node">
+                            <appui:Text text="Reference Image" class="muse-node__title bottom-gap" />
+                            <ui:Image name="muse-reference-image-field" class="muse-ref-image">
+                                <appui:Text text="No image selected" class="muse-ref-image__text" />
+                            </ui:Image>
+                        </ui:VisualElement>
+
+
+                    </ui:VisualElement>
+
+
+                </ui:ScrollView>
+
+                <ui:VisualElement class="muse-assetslist">
+
+                    <ui:VisualElement class="muse-assetslist__titlebar">
+                        <appui:Text class="muse-assetslist__title" text="Generations" primary="true" />
+                    </ui:VisualElement>
+
+                    <ui:ScrollView class="muse-assetslist__scrollview">
+
+                        <ui:VisualElement class="muse-assetslist__content">
+
+                            <ui:VisualElement class="muse-asset-image" />
+                            <ui:VisualElement class="muse-asset-image" />
+                            <ui:VisualElement class="muse-asset-image is-selected" />
+                            <ui:VisualElement class="muse-asset-image" />
+                            <ui:VisualElement class="muse-asset-image" />
+                            <ui:VisualElement class="muse-asset-image" />
+                            <ui:VisualElement class="muse-asset-image" />
+                            <ui:VisualElement class="muse-asset-image" />
+                            <ui:VisualElement class="muse-asset-image" />
+                            <ui:VisualElement class="muse-asset-image" />
+                            <ui:VisualElement class="muse-asset-image" />
+
+                        </ui:VisualElement>
+
+                    </ui:ScrollView>
+
+
+
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+        </ui:VisualElement>
+
+    </appui:Panel>
+
+
+</ui:UXML>

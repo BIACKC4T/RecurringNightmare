@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ui="UnityEngine.UIElements">
+    <Style src="../uss/NodesList.uss"/>
+    <ui:VisualElement name="__root__">
+        <ui:ScrollView class="muse-nodeslist-container">
+            <ui:VisualElement class="muse-nodeslist__content"/>
+        </ui:ScrollView>
+
+        <ui:VisualElement name="muse-nodeslist__dragbar" class="muse-nodeslist__dragbar cursor--ew-resize">
+            <ui:VisualElement class="muse-nodeslist__dragbar-content" picking-mode="Ignore" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

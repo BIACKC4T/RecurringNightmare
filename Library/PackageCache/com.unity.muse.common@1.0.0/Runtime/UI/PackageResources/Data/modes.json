@@ -1,0 +1,43 @@
+{
+  "modes":
+  [
+    {
+      "type": "TextToImage",
+      "label": "Materials",
+      "title": "Material Generator",
+      "version": "1.0",
+      "enabled": true,
+      "operators": [
+        {
+          "type": "GenerateOperator",
+          "version": "1.0",
+          "settings": [
+            "TextToImage",
+            "4"
+          ],
+          "enabled": true
+        },
+        {
+          "type": "PromptOperator",
+          "version": "2.0",
+          "enabled": true
+        },
+        {
+          "type": "LoraOperator",
+          "version": "1.0",
+          "enabled": false
+        },
+        {
+          "type": "ReferenceOperator",
+          "version": "1.0",
+          "enabled": true
+        },
+        {
+          "type": "MaskOperator",
+          "version": "1.0",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}
