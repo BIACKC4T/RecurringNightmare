@@ -1,0 +1,7 @@
+@import url("/Packages/com.unity.muse.common/ThirdParty/AppUI/PackageResources/Styles/Themes/App UI - Editor Dark - Small.tss");
+
+@import url("ApplicationStyleSheet.uss");
+
+
+
+VisualElement {}

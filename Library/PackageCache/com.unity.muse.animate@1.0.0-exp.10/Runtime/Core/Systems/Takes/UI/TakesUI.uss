@@ -1,0 +1,67 @@
+.deeppose-takes {
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: flex-start;
+}
+
+.deeppose-takes-t2m {
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 100%;
+    min-height: auto;
+}
+
+.deeppose-takes-t2m-generate-button
+{
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: var(--appui-accent-100);
+    height: auto;
+    width: 100%;
+}
+
+.deeppose-takes-t2m-generate-button:disabled
+{
+    background-color: var(--appui-backgrounds-300);
+}
+
+.deeppose-takes-t2m-spacer {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 6px;
+    height: 6px;
+}
+
+.deeppose-takes-t2m-slider
+{
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 100%;
+}
+
+.deeppose-takes-t2m-slider .appui-slider__control-container {
+    padding-left: 4px;
+    padding-right: 4px;
+    flex-grow: 1;
+}
+
+.deeppose-takes-t2m-input-field
+{
+    margin: 0;
+    min-height: 55px;
+    height: 55px;
+    max-height: 140px;
+    width: initial;
+}
+
+.deeppose-takes-t2m-action-group
+{
+    flex-grow: 0;
+    flex-direction: row;
+}
+
+#takes-t2m-model
+{
+    display: none;
+}

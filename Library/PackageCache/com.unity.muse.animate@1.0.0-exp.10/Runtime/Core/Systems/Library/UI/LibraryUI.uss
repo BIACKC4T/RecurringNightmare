@@ -1,0 +1,195 @@
+.deeppose-library {
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: var(--appui-backgrounds-200);
+    padding: 0;
+    border-radius: var(--appui-alias-control-border-radius);
+    width: 100%;
+    /*background-color: var(--appui-color-gray-150);*/
+}
+
+.deeppose-library-top {
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0;
+}
+
+.deeppose-library-item {
+    border-width: var(--appui-sizing-50);
+    border-color: #2e2e2e;
+    background-color: var(--appui-color-gray-100);
+    flex: none;
+    align-self: auto;
+    height: 100%;
+    width: 100%;
+    border-radius: var(--appui-sizing-100);
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.deeppose-library .appui-grid-view__item {
+    padding-left: 0px;
+    padding-right: 6px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+    margin: 0;
+    /*background-color: var(--appui-color-gray-150);*/
+}
+
+.deeppose-library .unity-scroll-view__content-container {
+    margin-left: 0px;
+    margin-right: -6px;
+    margin-top: 0px;
+    margin-bottom: -6px;
+    padding: 0;
+    /*background-color: var(--appui-color-gray-150);*/
+}
+
+.deeppose-library .unity-scroller--vertical {
+    margin-left: 6px;
+}
+
+.deeppose-library-item-editing {
+    border-color: var(--appui-accent-100);
+    background-color: var(--appui-color-gray-500);
+}
+
+.deeppose-library-item-highlighted {
+    border-color: var(--appui-color-gray-800);
+    background-color: var(--appui-color-gray-400);
+}
+
+.deeppose-library-item-thumbnail {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    flex: none;
+}
+
+.deeppose-library-item-circular-progress {
+    position: absolute;
+    align-self: center;
+    width: 16px;
+    height: 16px;
+}
+
+.deeppose-library-item-type-icon {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 24px;
+    height: 24px;
+    flex: none;
+}
+
+.deeppose-library__titlebar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--appui-spacing-200);
+    flex-shrink: 0;
+    margin-right: var(--appui-spacing-275);
+    margin-left: var(--appui-spacing-50);
+}
+
+.deeppose-library__title {
+    color: var(--appui-foregrounds-200);
+    font-size: var(--appui-font-sizes-100);
+    -unity-font-style: bold;
+}
+
+.deeppose-library__export-button {
+    position: absolute;
+    right: 0;
+}
+
+.deeppose-library__bookmark-filter-button {
+    margin-left: var(--appui-alias-control-gap-md);
+}
+
+.deeppose-library__gridview {
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 100%;
+}
+
+.deeppose-library__dragbar {
+    position: absolute;
+    width: 24px;
+    top: var(--appui-sizing-100);
+    bottom: var(--appui-sizing-100);
+    margin-left: -23px;
+    background-color: rgba(0, 0, 0, 0.001);
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.deeppose-library__dragbar-content {
+    width: 2px;
+}
+
+.deeppose-library__dragbar:hover > .deeppose-library__dragbar-content {
+    background-color: var(--appui-backgrounds-300);
+}
+
+.deeppose-library__content-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.deeppose-library__thumbnail-slider {
+    padding-right: 8px;
+    padding-left: 8px;
+    flex-grow: 1;
+    width: 100px;
+}
+
+.deeppose-library__thumbnail-slider .appui-slider__inline-valuelabel {
+    display: none;
+}
+
+.deeppose-library__header {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-direction: row;
+    margin-bottom: var(--appui-spacing-100);
+}
+
+.deeppose-library__footer {
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.deeppose-library__footer .appui-icon {
+    width: 22px;
+    height: 22px;
+    margin-bottom: 2px;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+
+.deeppose-library__searchbar {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: row;
+}
+
+.deeppose-library__context-menu-anchor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+}

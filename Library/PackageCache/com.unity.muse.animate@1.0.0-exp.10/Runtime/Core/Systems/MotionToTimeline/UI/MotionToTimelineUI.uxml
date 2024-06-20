@@ -1,0 +1,42 @@
+<ui:UXML
+        xmlns:ui="UnityEngine.UIElements"
+        xmlns:museAnimate="Unity.Muse.Animate"
+        xmlns:uie="UnityEditor.UIElements"
+        xsi="http://www.w3.org/2001/XMLSchema-instance"
+        editor="UnityEditor.UIElements"
+        MemoryProfiler="Unity.MemoryProfiler.Editor"
+        xmlns:appui="Unity.Muse.AppUI.UI"
+        noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        editor-extension-mode="False">
+
+    <ui:VisualElement name="mtt-main" class="deeppose-mtt-main">
+        <ui:VisualElement name="mtt-floating-panels" class="deeppose-mtt-floating-panels">
+            <ui:VisualElement name="mtt-floating-panel" class="deeppose-mtt-floating-panel">
+                <appui:Heading text="Edit Options" name="mtt-title"/>
+                <ui:VisualElement name="mtt-options" class="deeppose-mtt-floating-panel-section">
+                    <appui:InputLabel name="mtt-use-motion-completion-container" label="AI-assisted sampling" input-alignment="FlexEnd">
+                        <appui:Toggle name="mtt-use-motion-completion" tabindex="-1"/>
+                    </appui:InputLabel>
+                    <appui:InputLabel label="Sampling Sensitivity" direction="Vertical">
+                        <appui:SliderInt name="mtt-sensitivity-slider" class="deeppose-mtt-sensitivity-slider" low-value="0"
+                                         high-value="100" filled="true" inline-value="End" size="S"/>
+                    </appui:InputLabel>
+                </ui:VisualElement>
+                <ui:VisualElement name="mtt-footer" class="deeppose-mtt-floating-panel-footer">
+                    <ui:VisualElement name="mtt-buttons" class="deeppose-mtt-action-group">
+                        <appui:Button name="mtt-button-convert" tabindex="-1" style="width: 80px; flex-grow: 1;" title="Convert"/>
+                        <ui:VisualElement name="spacer" style="flex-grow: 0; width: 4px;"/>
+                        <appui:Button name="mtt-button-done" tabindex="-1" style="width: 80px; flex-grow: 1;" title="Done" primary="true"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="mtt-playback-section" class="deeppose-mtt-section">
+            <museAnimate:BakedTimelinePlaybackUI name="mtt-playback" class="deeppose-mtt-playback"/>
+        </ui:VisualElement>
+        <museAnimate:TimelineView name="mtt-timeline" class="deeppose-mtt-timeline"/>
+
+    </ui:VisualElement>
+
+
+</ui:UXML>

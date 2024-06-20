@@ -1,0 +1,21 @@
+<ui:UXML xmlns:museAnimate="Unity.Muse.Animate" xmlns:ui="UnityEngine.UIElements" xmlns:appui="Unity.Muse.AppUI.UI" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <!-- Library Items -->
+    <ui:VisualElement name="deeppose-library-top" class="deeppose-library-top">
+        <ui:VisualElement name="deeppose-library__context-menu-anchor" class="deeppose-library__context-menu-anchor" picking-mode="Ignore" />
+        <!-- 
+               <ui:VisualElement class="deeppose-library__titlebar">
+                   <appui:Text class="deeppose-library__title" text="Generations" primary="false" />
+               </ui:VisualElement>
+       -->
+       <ui:VisualElement class="deeppose-library__header">
+           <appui:SearchBar class="deeppose-library__searchbar" />
+       </ui:VisualElement>
+       <appui:GridView name="deeppose-library__gridview" class="deeppose-library__gridview" />
+
+       <ui:VisualElement class="deeppose-library__footer">
+           <appui:Icon icon-name="minus" size="L"/>
+           <appui:SliderFloat name="deeppose-library__thumbnail-slider" class="deeppose-library__thumbnail-slider" low-value="0.25" high-value="1" value="1" inline-value="End"  />
+           <appui:Icon icon-name="plus" size="L"/>
+       </ui:VisualElement>
+   </ui:VisualElement>
+</ui:UXML>
