@@ -1,0 +1,6 @@
+<ui:UXML xmlns:museAnimate="Unity.Muse.Animate" xmlns:ui="UnityEngine.UIElements" xmlns:appui="Unity.Muse.AppUI.UI" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <appui:ActionGroup compact="true">
+        <appui:ActionButton class="deeppose-toolbar-button" name="translate" icon="arrows-out-cardinal" tooltip="Set the loop translation offset (W)" quiet="true"/>
+        <appui:ActionButton class="deeppose-toolbar-button" name="rotate" icon="arrows-clockwise" tooltip="Set the loop rotation offset (E)" quiet="true"/>
+    </appui:ActionGroup>
+</ui:UXML>

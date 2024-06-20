@@ -1,0 +1,7 @@
+﻿@import "../../../Library/UI/LibraryUI.uss";
+
+.deeppose-takes-library
+{
+    flex-grow: 1;
+    height: 100%;
+}

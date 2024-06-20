@@ -1,0 +1,26 @@
+{
+    "name": "Unity.Muse.Animate.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Mathematics",
+        "Unity.Burst",
+        "Unity.DeepPose.Core",
+        "Unity.DeepPose.Core.Editor",
+        "Unity.DeepPose.Components",
+        "Unity.EditorCoroutines.Editor",
+        "Unity.Muse.Animate",
+        "Unity.Muse.Common",
+        "Unity.Muse.AppUI"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,39 @@
+<ui:UXML
+        xmlns:ui="UnityEngine.UIElements"
+        xmlns:museAnimate="Unity.Muse.Animate"
+        xmlns:uie="UnityEditor.UIElements"
+        xsi="http://www.w3.org/2001/XMLSchema-instance"
+        editor="UnityEditor.UIElements"
+        MemoryProfiler="Unity.MemoryProfiler.Editor"
+        xmlns:appui="Unity.Muse.AppUI.UI"
+        noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+        editor-extension-mode="False">
+    <ui:VisualElement name="t2m-overlay" class="deeppose-t2m-overlay" picking-mode="Ignore">
+        <ui:VisualElement name="t2m-overlay-box" class="deeppose-t2m-overlay-box">
+            <appui:Text name="t2m-overlay-box-text" text="Overlay box" size="XS" class="deeppose-t2m-overlay-box-text"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="t2m-buttons" class="deeppose-t2m-buttons" picking-mode="Ignore">
+            <appui:Button name="t2m-button-delete" tabindex="-1" title="Delete"/>
+            <ui:VisualElement name="spacer" style="flex-grow: 0; width: 4px;" picking-mode="Ignore"/>
+            <appui:Button name="t2m-button-shuffle" tabindex="-1" title="Shuffle"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="t2m-info" class="deeppose-t2m-info" picking-mode="Ignore">
+            <ui:VisualElement style="flex-grow:1">
+                <appui:Heading name="t2m-title" text="Generation Information"/>
+                <ui:VisualElement class="deeppose-t2m-prompt-container">
+                    <appui:Text name="t2m-prompt" class="deeppose-t2m-prompt" size="M" text="Prompt: " />
+                    <appui:Text name="t2m-prompt-text" class="deeppose-t2m-prompt-text" size="M"/>
+                </ui:VisualElement>
+                <appui:InputLabel name="t2m-seed" label="Seed">
+                    <appui:Text name="t2m-seed-text" class="deeppose-t2m-seed-text"/>
+                </appui:InputLabel>
+            </ui:VisualElement>
+            <appui:ActionButton name="t2m-button-extract-keys" tabindex="-1" label="Make Editable" icon="pen" size="L" quiet="true"/>
+            <ui:VisualElement name="spacer" style="flex-grow: 0; width: 4px;" picking-mode="Ignore"/>
+            <appui:ActionButton name="t2m-button-export" tabindex="-1" label="Export" icon="export" size="L" quiet="true"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="t2m-section" class="deeppose-t2m-section">
+        <museAnimate:BakedTimelinePlaybackUI name="t2m-playback" class="deeppose-t2m-playback"/>
+    </ui:VisualElement>
+</ui:UXML>

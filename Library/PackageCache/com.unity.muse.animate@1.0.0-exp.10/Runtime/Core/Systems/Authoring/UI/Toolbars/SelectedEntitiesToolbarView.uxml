@@ -1,0 +1,7 @@
+<ui:UXML xmlns:museAnimate="Unity.Muse.Animate" xmlns:ui="UnityEngine.UIElements" xmlns:appui="Unity.Muse.AppUI.UI" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <appui:ActionGroup compact="true">
+        <appui:ActionButton class="deeppose-toolbar-button" name="copy-pose" icon="deep-pose-copy-pose" tooltip="Copy selected actor pose to clipboard" quiet="true" />
+        <appui:ActionButton class="deeppose-toolbar-button" name="pose-estimation" icon="deep-pose-estimate-pose" tooltip="Pose actors from an image" quiet="true" />
+        <appui:ActionButton class="deeppose-toolbar-button" name="delete" icon="delete" tooltip="Delete selected entity" quiet="true" />
+    </appui:ActionGroup>
+</ui:UXML>

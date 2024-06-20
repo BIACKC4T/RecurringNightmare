@@ -1,0 +1,5 @@
+<ui:UXML xmlns:museAnimate="Unity.Muse.Animate" xmlns:ui="UnityEngine.UIElements" xmlns:appui="Unity.Muse.AppUI.UI" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <appui:ActionGroup compact="true">
+        <appui:ActionButton class="deeppose-toolbar-button" name="disable-effectors" icon="deep-pose-disable-effector" tooltip="Disable selected effectors" quiet="true" />
+    </appui:ActionGroup>
+</ui:UXML>
