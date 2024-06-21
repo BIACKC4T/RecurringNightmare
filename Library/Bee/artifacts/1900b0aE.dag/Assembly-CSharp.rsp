@@ -404,6 +404,10 @@
 "Assets/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs"
 "Assets/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs"
 "Assets/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTk2d.cs"
+"Assets/Scripts/BIackcat's/CameraBreathingEffect.cs"
+"Assets/Scripts/BIackcat's/CameraController.cs"
+"Assets/Scripts/BIackcat's/CameraHeadBob.cs"
+"Assets/Scripts/BIackcat's/InitializeCameraMovement.cs"
 "Assets/Scripts/BIackcat's/Test.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0

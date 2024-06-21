@@ -1,15 +1,28 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
-public class SimpleMovement : MonoBehaviour
+public class Test : MonoBehaviour
 {
-    public float speed = 5.0f; // ÀÌµ¿ ¼Óµµ
+    public float speed = 5.0f; // ì´ë™ ì†ë„
 
     void Update()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal"); // ¼öÆò ÀÔ·ÂÀ» ¹Ş½À´Ï´Ù.
-        float moveVertical = Input.GetAxis("Vertical"); // ¼öÁ÷ ÀÔ·ÂÀ» ¹Ş½À´Ï´Ù.
+        float moveHorizontal = Input.GetAxis("Horizontal"); // ìˆ˜í‰ ì…ë ¥ì„ ë°›ìŠµë‹ˆë‹¤.
+        float moveVertical = Input.GetAxis("Vertical"); // ìˆ˜ì§ ì…ë ¥ì„ ë°›ìŠµë‹ˆë‹¤.
 
-        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical) * speed * Time.deltaTime; // ÀÌµ¿ º¤ÅÍ¸¦ »ı¼ºÇÕ´Ï´Ù.
-        transform.Translate(movement, Space.World); // Transform.Translate¸¦ »ç¿ëÇÏ¿© ¿ÀºêÁ§Æ®¸¦ ÀÌµ¿½ÃÅµ´Ï´Ù.
+        // ì¹´ë©”ë¼ê°€ ë°”ë¼ë³´ëŠ” ë°©í–¥ìœ¼ë¡œ ì´ë™ ë²¡í„°ë¥¼ ì¡°ì •í•©ë‹ˆë‹¤.
+        Vector3 movement = Camera.main.transform.forward * moveVertical + Camera.main.transform.right * moveHorizontal;
+        movement.y = 0; // ìˆ˜ì§ ì´ë™ì„ ì œê±°í•˜ì—¬ ì¹´ë©”ë¼ê°€ ì§€ë©´ì„ ë”°ë¼ë§Œ ì›€ì§ì´ë„ë¡ í•©ë‹ˆë‹¤.
+
+        transform.Translate(movement * speed * Time.deltaTime, Space.World); // Transform.Translateë¥¼ ì‚¬ìš©í•˜ì—¬ ì˜¤ë¸Œì íŠ¸ë¥¼ ì´ë™ì‹œí‚µë‹ˆë‹¤.
+
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            speed = 7.5f; // ë‹¬ë¦¬ê¸° ì†ë„
+        }
+
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            speed = 5.0f; // ê±·ê¸° ì†ë„
+        }
     }
 }
